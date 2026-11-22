@@ -1,0 +1,15 @@
+{
+  "files.exclude": {
+    "**/.dart_tool": true,
+    "**/.idea": true,
+    "**/build": true
+  },
+  "search.exclude": {
+    "**/.dart_tool": true,
+    "**/build": true
+  },
+  "dart.analysisExcludedFolders": [
+    "build",
+    ".dart_tool"
+  ]
+}

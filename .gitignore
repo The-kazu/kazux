@@ -1,0 +1,95 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+._*
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+**/Pods/
+**/DerivedData/
+**/xcuserdata/
+*.xcuserstate
+*.xcresult/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# O projeto entregue para a banca tem como alvo somente iOS.
+/android/
+/linux/
+/macos/
+/web/
+/windows/
+
+# Configuracoes, credenciais e dados locais.
+.envrc
+.env
+.env.*
+!/servidor_ia/.env.example
+GoogleService-Info*.plist
+google-services.json
+/lib/firebase_options.dart
+/firebase.json
+.firebaserc
+.firebase/
+service-account*.json
+*firebase-adminsdk*.json
+*.pem
+*.key
+*.p12
+*.p8
+*.mobileprovision
+*.jks
+*.keystore
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.ipa
+*.app/
+*.dSYM/
+__pycache__/
+
+# Materiais pessoais e relatorios locais; o README e os guias permanecem.
+/materiais_tcc/
+/ferramentas/
+/configurar_firebase.command
+/Guia_Codigo_Lib_Kazux.docx
+/PLANO_DE_ESTUDO_APRESENTACAO.md
+/RELATORIO_FINAL_19NOV.md
+/RELATORIO_VERIFICACAO_*.md
+~$*
