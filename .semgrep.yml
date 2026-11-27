@@ -1,0 +1,23 @@
+rules:
+  - id: kazux-hardcoded-openai-key
+    languages: [generic]
+    severity: ERROR
+    message: Possivel chave OpenAI embutida no codigo. Use variavel de ambiente.
+    metadata:
+      severity: CRITICAL
+      technology: [dart]
+    paths:
+      include:
+        - "*.dart"
+    pattern-regex: 'sk-(?:proj-)?[A-Za-z0-9_-]{32,}'
+  - id: kazux-insecure-tls
+    languages: [generic]
+    severity: ERROR
+    message: Nao desative a verificacao de certificados TLS.
+    metadata:
+      severity: CRITICAL
+      technology: [dart]
+    paths:
+      include:
+        - "*.dart"
+    pattern-regex: 'badCertificateCallback\s*=\s*[^;]*=>\s*true'
